@@ -1,4 +1,4 @@
-import { getPocReceiptRole } from '../../../utils/txns'
+/*import { getPocReceiptRole } from '../../../utils/txns'
 import animalHash from 'angry-purple-tiger'
 import classNames from 'classnames'
 import { h3ToGeo } from 'h3-js'
@@ -88,32 +88,32 @@ const WitnessesDetails = ({ txn, role, address, isWitness }) => {
   const activeWitness = txn.path[0].witnesses.find((w) => w.gateway === address)
   return (
     <div className="flex flex-col">
-      {/* if this hotspot is a witness and is invalid, display the reason why */}
-      {role === 'poc_witnesses_invalid' && (
-        <span className="text-xs font-sans font-semibold text-red-500 mt-1 ml-6">
-          {activeWitness?.invalidReason}
-        </span>
-      )}
-      {/* if this hotspot is in the witnesses list for this PoC Receipt... */}
-      {isWitness && (
-        <>
-          {/* show the distance, RSSI, and SNR */}
-          <ActiveWitnessInfo activeWitness={activeWitness} path={txn.path[0]} />
-          {/* as well as the number of other witnesses there were */}
-          {txn.path[0].witnesses.length > 1 && (
-            <span className="whitespace-nowrap text-xs font-sans font-thin text-gray-800 mt-0.5">
-              {`and ${txn.path[0].witnesses.length - 1} other hotspot${
-                txn.path[0].witnesses.length - 1 === 1 ? '' : 's'
-              }`}
-            </span>
-          )}
-        </>
-      )}
-    </div>
-  )
-}
+      {/* if this hotspot is a witness and is invalid, display the reason why */////}
+      //{role === 'poc_witnesses_invalid' && (
+       // <span className="text-xs font-sans font-semibold text-red-500 mt-1 ml-6">
+        //  {activeWitness?.invalidReason}
+        //</span>
+     // )}
+      //{/* if this hotspot is in the witnesses list for this PoC Receipt... */}
+     // {isWitness && (
+        //<>
+         //////{/* show the distance, RSSI, and SNR */}
+         // <ActiveWitnessInfo activeWitness={activeWitness} path={txn.path[0]} />
+         // {/* as well as the number of other witnesses there were */}
+         // {txn.path[0].witnesses.length > 1 && (
+         //   <span className="whitespace-nowrap text-xs font-sans font-thin text-gray-800 mt-0.5">
+          //    {`and ${txn.path[0].witnesses.length - 1} other hotspot${
+          //      txn.path[0].witnesses.length - 1 === 1 ? '' : 's'
+           //   }`}
+           // </span>
+         // )}
+       // </>
+     // )}
+   // </div>
+//  )
+//}
 
-const ExpandedPoCReceiptContent = ({ txn, address }) => {
+/*const ExpandedPoCReceiptContent = ({ txn, address }) => {
   const role = getPocReceiptRole(txn, address)
   const isWitness =
     role === 'poc_witnesses_valid' || role === 'poc_witnesses_invalid'
@@ -167,3 +167,4 @@ const ExpandedPoCReceiptContent = ({ txn, address }) => {
 }
 
 export default ExpandedPoCReceiptContent
+*/

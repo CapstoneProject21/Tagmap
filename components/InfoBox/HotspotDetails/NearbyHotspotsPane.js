@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useMemo } from 'react'
 import { useAsync } from 'react-async-hook'
 import { h3ToGeo } from 'h3-js'
@@ -42,3 +42,4 @@ const NearbyHotspotsPane = ({ hotspot }) => {
 }
 
 export default NearbyHotspotsPane
+*/

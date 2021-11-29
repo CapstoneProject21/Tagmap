@@ -4,7 +4,7 @@
 
 
 
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useCallback } from 'react'
 import BaseList from '../../Lists/BaseList'
 import HotspotSimpleIcon from '../../Icons/HotspotSimple'
@@ -88,3 +88,4 @@ const MakersPane = () => {
 }
 
 export default MakersPane
+*/

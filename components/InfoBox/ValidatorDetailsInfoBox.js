@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+/*import { useParams } from 'react-router'
 import animalHash from 'angry-purple-tiger'
 import InfoBox from './InfoBox'
 import TabNavbar, { TabPane } from '../Nav/TabNavbar'
@@ -90,3 +90,4 @@ const ValidatorDetailsInfoBox = () => {
 }
 
 export default ValidatorDetailsInfoBox
+*/

@@ -3,7 +3,7 @@
 //THIS IS THE ADDING HOSTSPOT FOR THE HELIUM EXPLORER SO NOT REQUIRED PAGE OR MODULE
 
 
-import { useState } from 'react'
+/*import { useState } from 'react'
 import { useAsync } from 'react-async-hook'
 import { fetchHotspot } from '../../../data/hotspots'
 import AccountWidget from '../../Widgets/AccountWidget'
@@ -67,3 +67,4 @@ const AddGatewayV1 = ({ txn }) => {
 }
 
 export default AddGatewayV1
+*/

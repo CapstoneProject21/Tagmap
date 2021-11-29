@@ -1,4 +1,4 @@
-import ActivityColorSlice from './ActivityColorSlice'
+/*import ActivityColorSlice from './ActivityColorSlice'
 import Image from 'next/image'
 
 const ActivityListItem = ({ title, subtitle, highlightColor }) => {
@@ -26,3 +26,4 @@ const ActivityListItem = ({ title, subtitle, highlightColor }) => {
   )
 }
 export default ActivityListItem
+*/

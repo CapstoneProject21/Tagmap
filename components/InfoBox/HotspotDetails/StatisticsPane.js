@@ -1,4 +1,4 @@
-import RewardScaleWidget from '../../Widgets/RewardScaleWidget'
+/*import RewardScaleWidget from '../../Widgets/RewardScaleWidget'
 import StatusWidget from '../../Widgets/StatusWidget'
 import StatWidget from '../../Widgets/StatWidget'
 import { useHotspotBeaconSums } from '../../../data/beacons'
@@ -82,15 +82,16 @@ const StatisticsPane = ({ hotspot, isDataOnly }) => {
           title="TAGS"
           type="hotspot"
         />
-        {/* <RecentActivityWidget context="hotspot" address={hotspot.address} /> */}
-        {!isDataOnly && (
-          <>
+        {/* <RecentActivityWidget context="hotspot" address={hotspot.address} /> *///}
+        
+       // {!isDataOnly && (
+        //  <>
            
-            <Widget
-              title="Total Witnesses"
-              linkTo={`/hotspots/${hotspot?.address}/witnesses`}
-              value={hotspot?.witnesses?.length}
-              subtitle={
+     //       <Widget
+       //       title="Total Witnesses"
+        //     linkTo={`/hotspots/${hotspot?.address}/witnesses`}
+        ///      value={hotspot?.witnesses?.length}
+           /*   subtitle={
                 <span className="text-gray-550 text-sm font-sans">
                   Within past 5 days
                 </span>
@@ -133,3 +134,4 @@ const StatisticsPane = ({ hotspot, isDataOnly }) => {
 }
 
 export default StatisticsPane
+*/

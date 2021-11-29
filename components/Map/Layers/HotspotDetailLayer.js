@@ -38,31 +38,11 @@ const HotspotDetailLayer = ({ hotspot, witnesses = [] }) => {
         {hotspot &&
           hotspot.lat &&
           hotspot.lng &&
-          hotspot.location &&
-          witnesses.map((w) => (
-            <Feature
-              key={`witness-line-${w.address}`}
-              coordinates={[
-                [w.lng, w.lat],
-                [hotspot.lng, hotspot.lat],
-              ]}
-            />
-          ))}
+          hotspot.location 
+         }
       </Layer>
-      <GeoJSONLayer
-        id="witnesses"
-        data={witnessesData || emptyGeoJSON}
-        circlePaint={witnessCircleLayout}
-      />
-      {hotspot && hotspot.lat && hotspot.lng && hotspot.location && (
-        <Layer
-          type="symbol"
-          id="selected-hotspot"
-          layout={{ 'icon-image': 'selected-hotspot-img' }}
-        >
-          <Feature coordinates={[hotspot.lng, hotspot.lat]} />
-        </Layer>
-      )}
+     
+     
     </>
   )
 }

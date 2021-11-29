@@ -22,47 +22,24 @@ const InfoBoxSwitch = () => {
 
   return (
     <Switch>
-      <Route path={`${base}/hotspots/hex/:index([a-z0-9]{15})`}>
-        <HexDetailsInfoBox />
-      </Route>
-      <Route path={`${base}/hotspots/:address([a-zA-Z0-9]{40,})`}>
-        <HotspotDetailsInfoBox />
-      </Route>
-      <Route path={`${base}/hotspots/cities/:cityid`}>
-        <CityDetailsInfoBox />
-      </Route>
+      
       <Route path={`${base}/hotspots`}>
         <HotspotsInfoBox />
       </Route>
-      <Route path={`${base}/accounts/:address([a-zA-Z0-9]{40,})`}>
-        <AccountDetailsInfoBox />
-      </Route>
-      <Route path={`${base}/accounts`}>
-        <AccountsInfoBox />
-      </Route>
-      
-      
-      <Route path={`${base}/blocks/:block(\\d+)`}>
-        <BlockDetailsInfoBox />
-      </Route>
-      <Route path={`${base}/txns/:hash`}>
-        <TxnDetailsInfoBox />
-      </Route>
+     
       
       
       
-      <Route path={`${base}/tools`}>
-        <CommunityToolsInfoBox />
-      </Route>
-      <Route exact path={base}>
-        <OverviewInfoBox />
-      </Route>
-      <Route exact path={`${base}/coverage`}>
-        <OverviewInfoBox />
-      </Route>
+      
+      
+      
+      
+      
+      
       <Route>
-        <ErrorInfoBox />
+        <OverviewInfoBox />
       </Route>
+     
     </Switch>
   )
 }

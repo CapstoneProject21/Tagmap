@@ -1,15 +1,15 @@
-import { useCallback, useMemo } from 'react'
+/*import { useCallback, useMemo } from 'react'
 import { useParams } from 'react-router'
 import InfoBox from './InfoBox'
 import TabNavbar, { TabPane } from '../Nav/TabNavbar'
-import AccountAddress from '../AccountAddress'
+//import AccountAddress from '../AccountAddress'
 import OverviewPane from './AccountDetails/OverviewPane'
 import ActivityPane from './Common/ActivityPane'
-import HotspotsPane from './AccountDetails/HotspotsPane'
-import ValidatorsPane from './AccountDetails/ValidatorsPane'
+//import HotspotsPane from './AccountDetails/HotspotsPane'
+//import ValidatorsPane from './AccountDetails/ValidatorsPane'
 import AccountIcon from '../AccountIcon'
 import CopyableText from '../Common/CopyableText'
-import MakerOverviewPane from './AccountDetails/MakerOverviewPane'
+//import MakerOverviewPane from './AccountDetails/MakerOverviewPane'
 import { useMaker } from '../../data/makers'
 import SkeletonWidgets from './Common/SkeletonWidgets'
 
@@ -82,3 +82,4 @@ const AccountDetailsInfoBox = () => {
 }
 //lets change the hostspots name to the tags for the game tagging menu
 export default AccountDetailsInfoBox
+*/

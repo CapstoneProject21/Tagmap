@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import AccountAddress from '../../AccountAddress'
 import AccountIcon from '../../AccountIcon'
 import ChevronIcon from '../../Icons/Chevron'
@@ -45,3 +45,4 @@ const PaymentSubtitle = ({
 }
 
 export default PaymentSubtitle
+*/

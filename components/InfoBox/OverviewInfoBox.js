@@ -7,22 +7,22 @@ import useApi from '../../hooks/useApi'
 import InfoBoxPaneContainer from './Common/InfoBoxPaneContainer'
 import { formatLargeNumber } from '../../utils/format'
 import Widget from '../Widgets/Widget'
-import Currency from '../Common/Currency'
+//import Currency from '../Common/Currency'
 import { useMarket } from '../../data/market'
-import { useStats } from '../../data/stats'
+//import { useStats } from '../../data/stats'
 // import { useDataCredits } from '../../data/datacredits'
-import { useValidatorStats } from '../../data/validators'
+//import { useValidatorStats } from '../../data/validators'
 
 const OverviewInfoBox = () => {
   const { data: hotspots } = useApi('/metrics/hotspots')
-  const { data: blocks } = useApi('/metrics/blocks')
-  const { stats: validatorStats } = useValidatorStats()
+  //const { data: blocks } = useApi('/metrics/blocks')
+  //const { stats: validatorStats } = useValidatorStats()
   const { market } = useMarket()
-  const { stats } = useStats()
+  //const { stats } = useStats()
   // const { dataCredits } = useDataCredits()
 
   return (
-    <InfoBox title="TagMap">
+    <InfoBox title="TagMap Stats ">
       <InfoBoxPaneContainer>
         <TrendWidget
           title="TAGMATCH"

@@ -1,6 +1,6 @@
 //Not sure of this one
 
-
+/*
 
 import { Link } from 'react-router-i18n'
 import { memo } from 'react'
@@ -80,3 +80,4 @@ const SubtitleSection = ({ subtitles }) => {
 }
 
 export default memo(SubtitleSection)
+*/

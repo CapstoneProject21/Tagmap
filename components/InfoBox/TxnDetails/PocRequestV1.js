@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 import { useAsync } from 'react-async-hook'
 import HotspotWidget from '../../Widgets/HotspotWidget'
 import { fetchHotspot } from '../../../data/hotspots'
@@ -26,3 +26,4 @@ const PocRequestV1 = ({ txn }) => {
 }
 
 export default PocRequestV1
+*/

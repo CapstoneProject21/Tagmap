@@ -43,7 +43,7 @@ const Header = ({ fallbackLinks = true }) => {
       >
         {fallbackLinks ? (
           <a href="/">
-            <img alt="TagMap Logo" src="/images/logo-sm.svg" />
+            <img alt="TagMap Logo" src="/images/TagMatch.png" />
           </a>
         ) : (
           <Link to="/">

@@ -1,4 +1,4 @@
-import { capitalize, round } from 'lodash'
+/*import { capitalize, round } from 'lodash'
 import { useCallback } from 'react'
 import { useParams } from 'react-router'
 import { useValidator } from '../../../data/validators'
@@ -49,3 +49,4 @@ const PenaltiesPane = () => {
 }
 
 export default PenaltiesPane
+*/

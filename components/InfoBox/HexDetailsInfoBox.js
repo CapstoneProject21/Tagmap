@@ -2,7 +2,7 @@
 
 
 //Need icons and the images for this part as we might be needing the information to show for the users
-
+/*
 
 import { useParams } from 'react-router'
 import classNames from 'classnames'
@@ -126,3 +126,4 @@ const HexDetailsInfoBox = () => {
 }
 
 export default HexDetailsInfoBox
+*/

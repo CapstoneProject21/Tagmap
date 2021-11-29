@@ -3,7 +3,7 @@
 //We donot require This
 
 //However, for some reason, tagmap is not running if commented
-
+/*
 import classNames from 'classnames'
 import { useCallback } from 'react'
 import useMeasuringTool from '../../hooks/useMeasuringTool'
@@ -59,3 +59,4 @@ const MeasuringToolButton = () => {
 }
 
 export default MeasuringToolButton
+*/

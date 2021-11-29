@@ -1,4 +1,4 @@
-import InfoBox from './InfoBox'
+/*import InfoBox from './InfoBox'
 import { useParams } from 'react-router'
 import { useEffect } from 'react'
 import useSelectedCity from '../../hooks/useSelectedCity'
@@ -115,3 +115,4 @@ const CityDetailsInfoBox = () => {
 }
 
 export default CityDetailsInfoBox
+*/

@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 import { truncate, upperCase, upperFirst } from 'lodash'
 import { useParams } from 'react-router'
 import { useBlockHeight } from '../../../data/blocks'
@@ -75,7 +75,7 @@ const OverviewPane = () => {
         isLoading={isLoading}
         span={2}
         value={<ISP validator={validator} />}
-      /> */}
+      /> *//*}
     </InfoBoxPaneContainer>
   )
 }
@@ -115,3 +115,4 @@ const formatISP = (isp) => {
 }
 
 export default OverviewPane
+*/

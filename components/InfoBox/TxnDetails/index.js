@@ -1,4 +1,4 @@
-export { default as BeaconDetailsPane } from './BeaconDetailsPane'
+/*export { default as BeaconDetailsPane } from './BeaconDetailsPane'
 export { default as PaymentV1 } from './PaymentV1'
 export { default as PaymentV2 } from './PaymentV2'
 export { default as Rewards } from './Rewards'
@@ -14,3 +14,4 @@ export { default as Fallback } from './Fallback'
 export { default as TokenBurnV1 } from './TokenBurnV1'
 export { default as StakeValidatorV1 } from './StakeValidatorV1'
 export { default as ValidatorHeartbeatV1 } from './ValidatorHeartbeatV1'
+*/

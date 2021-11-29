@@ -1,4 +1,4 @@
-import { useCallback } from 'react'
+/*import { useCallback } from 'react'
 import BaseList from '../BaseList'
 import FlagLocation from '../../Common/FlagLocation'
 import {
@@ -272,3 +272,4 @@ const ActivityList = ({
 }
 
 export default ActivityList
+*/

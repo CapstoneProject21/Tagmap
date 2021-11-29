@@ -2,7 +2,7 @@
 
 //Number of nearby tagmatch players or even change out to see the player's profile or ID to specific
 
-
+/*
 import { useCallback } from 'react'
 import animalHash from 'angry-purple-tiger'
 import StatusCircle from '../Hotspots/StatusCircle'
@@ -89,3 +89,4 @@ const NearbyHotspotsList = ({
 }
 
 export default NearbyHotspotsList
+*/

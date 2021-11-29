@@ -10,7 +10,7 @@ import useMapLayer from '../../hooks/useMapLayer'
 import useInfoBox from '../../hooks/useInfoBox'
 import useGeolocation from '../../hooks/useGeolocation'
 import ValidatorsLayer from './Layers/ValidatorsLayer'
-import useSelectedTxn from '../../hooks/useSelectedTxn'
+//import useSelectedTxn from '../../hooks/useSelectedTxn'
 import { fetchHotspot } from '../../data/hotspots'
 import HexCoverageLayer from './Layers/HexCoverageLayer'
 import { hotspotToRes8 } from '../Hotspots/utils'
@@ -76,15 +76,15 @@ const CoverageMap = () => {
   const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 768 })
   const map = useRef()
   const [styleLoaded, setStyledLoaded] = useState(false)
-  const [selectedTxnHotspot, setSelectedTxnHotspot] = useState()
-  const [selectedTxnParticipants, setSelectedTxnParticipants] = useState([])
+  //const [selectedTxnHotspot, setSelectedTxnHotspot] = useState()
+  //const [selectedTxnParticipants, setSelectedTxnParticipants] = useState([])
 
   const { showInfoBox } = useInfoBox()
   const { mapLayer } = useMapLayer()
   const { selectedHotspot } = useSelectedHotspot()
   const { selectHex, selectedHex } = useSelectedHex()
   const { selectedCity } = useSelectedCity()
-  const { selectedTxn } = useSelectedTxn()
+ // const { selectedTxn } = useSelectedTxn()
   const { currentPosition } = useGeolocation()
   const {
     measuring,
@@ -163,49 +163,8 @@ const CoverageMap = () => {
     setBounds(selectionBounds)
   }, [selectedCity])
 
-  useEffect(() => {
-    if (!selectedTxnHotspot || !selectedTxnParticipants) return
-
-    const selectionBounds = findBounds([
-      ...(selectedTxnParticipants || []).map(({ lat, lng }) => ({
-        lat,
-        lng,
-      })),
-      { lat: selectedTxnHotspot.lat, lng: selectedTxnHotspot.lng },
-      ...paddingPoints({
-        lat: selectedTxnHotspot.lat,
-        lng: selectedTxnHotspot.lng,
-      }),
-    ])
-    setBounds(selectionBounds)
-  }, [selectedTxnHotspot, selectedTxnParticipants])
-
-  useAsync(async () => {
-    if (selectedTxn && selectedHex) {
-      setSelectedTxnHotspot(undefined)
-      setSelectedTxnParticipants([])
-      return
-    }
-    if (selectedTxn?.type === 'poc_receipts_v1') {
-      const target = selectedTxn.path[0].challengee
-      const targetHotspot = await fetchHotspot(target)
-      const witnesses = selectedTxn.path[0].witnesses.map(hotspotToRes8)
-
-      setSelectedTxnParticipants(witnesses)
-      setSelectedTxnHotspot(targetHotspot)
-    } else if (
-      selectedTxn?.type === 'assert_location_v1' ||
-      selectedTxn?.type === 'assert_location_v2'
-    ) {
-      const target = selectedTxn.gateway
-      const targetHotspot = await fetchHotspot(target)
-      setSelectedTxnHotspot(targetHotspot)
-      setSelectedTxnParticipants([])
-    } else {
-      setSelectedTxnHotspot(undefined)
-      setSelectedTxnParticipants([])
-    }
-  }, [selectedTxn, selectedHotspot, selectedHex])
+  
+  
 
   const fitBoundsOptions = useMemo(() => {
     const animate = styleLoaded
@@ -288,7 +247,7 @@ const CoverageMap = () => {
   return (
     <Mapbox
       // eslint-disable-next-line react/style-prop-object
-      style="mapbox://styles/petermain/cko1ewc0p0st918lecxa5c8go"
+      style="mapbox://styles/ks082099/ckw340mqx026z15of4uqzs16p"
       className={classNames(
         'h-full w-full overflow-hidden absolute top-0 bottom-0',
         {
@@ -318,14 +277,7 @@ const CoverageMap = () => {
           layer={mapLayer}
         />
       )}
-      <HotspotDetailLayer
-        hotspot={selectedTxnHotspot || selectedHotspot}
-        witnesses={
-          selectedHotspot && selectedTxn
-            ? selectedTxnParticipants
-            : selectedHotspot?.witnesses || selectedTxnParticipants || []
-        }
-      />
+     
     
       
     </Mapbox>

@@ -1,4 +1,4 @@
-import animalHash from 'angry-purple-tiger'
+/*import animalHash from 'angry-purple-tiger'
 import Pill from '../../Common/Pill'
 
 const rewardTypeText = {
@@ -46,3 +46,4 @@ const ExpandedRewardContent = ({ txn }) => {
 }
 
 export default ExpandedRewardContent
+*/

@@ -1,7 +1,7 @@
 //Can be removed but should be removed the block from the menu or navbar first
 
 
-
+/*
 
 import InfoBox from './InfoBox'
 import TabNavbar, { TabPane } from '../Nav/TabNavbar'
@@ -24,3 +24,4 @@ const BlocksInfoBox = () => {
 }
 
 export default BlocksInfoBox
+*/

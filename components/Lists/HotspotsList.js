@@ -4,14 +4,14 @@
 
 import { useCallback } from 'react'
 import animalHash from 'angry-purple-tiger'
-import StatusCircle from '../Hotspots/StatusCircle'
-import FlagLocation from '../Common/FlagLocation'
+//import StatusCircle from '../Hotspots/StatusCircle'
+//import FlagLocation from '../Common/FlagLocation'
 import useSelectedHotspot from '../../hooks/useSelectedHotspot'
 import BaseList from './BaseList'
-import Gain from '../Hotspots/Gain'
-import Elevation from '../Hotspots/Elevation'
-import Rewards from '../Hotspots/Rewards'
-import TransmitScale from '../Hotspots/TransmitScale'
+//import Gain from '../Hotspots/Gain'
+//import Elevation from '../Hotspots/Elevation'
+//import Rewards from '../Hotspots/Rewards'
+//import TransmitScale from '../Hotspots/TransmitScale'
 
 const HotspotsList = ({
   hotspots,
@@ -45,11 +45,7 @@ const HotspotsList = ({
   const renderSubtitle = useCallback((h) => {
     return (
       <>
-        <FlagLocation geocode={h.geocode} shortenedLocationName />
-        <TransmitScale hotspot={h} />
-        <Gain hotspot={h} />
-        <Elevation hotspot={h} />
-        <Rewards hotspot={h} />
+       
       </>
     )
   }, [])
@@ -65,13 +61,7 @@ const HotspotsList = ({
       linkExtractor={linkExtractor}
       onSelectItem={handleSelectHotspot}
       isLoading={isLoading}
-      renderTitle={renderTitle}
-      renderSubtitle={renderSubtitle}
-      renderDetails={renderDetails}
-      blankTitle="No Hotspots"
-      fetchMore={fetchMore}
-      isLoadingMore={isLoadingMore}
-      hasMore={hasMore}
+      
     />
   )
 }

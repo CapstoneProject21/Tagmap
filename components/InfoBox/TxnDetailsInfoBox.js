@@ -1,4 +1,4 @@
-import InfoBox from './InfoBox'
+/*import InfoBox from './InfoBox'
 import { useParams } from 'react-router'
 import useSelectedTxn from '../../hooks/useSelectedTxn'
 import { useEffect } from 'react'
@@ -114,3 +114,4 @@ const TxnDetailsInfoBox = () => {
 }
 
 export default TxnDetailsInfoBox
+*/

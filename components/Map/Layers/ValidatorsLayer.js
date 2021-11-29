@@ -1,4 +1,4 @@
-import { useMemo, memo } from 'react'
+/*import { useMemo, memo } from 'react'
 import { GeoJSONLayer } from 'react-mapbox-gl'
 import geoJSON from 'geojson'
 import { emptyGeoJSON } from '../../../utils/location'
@@ -84,3 +84,4 @@ const defaultStyle = (minZoom, maxZoom) => ({
 })
 
 export default memo(ValidatorsLayer)
+*/

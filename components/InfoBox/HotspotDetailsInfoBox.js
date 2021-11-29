@@ -4,17 +4,17 @@ import { useAsync } from 'react-async-hooks'
 import { useParams } from 'react-router'
 import InfoBox from './InfoBox'
 import TabNavbar, { TabPane } from '../Nav/TabNavbar'
-import StatisticsPane from './HotspotDetails/StatisticsPane'
+//import StatisticsPane from './HotspotDetails/StatisticsPane'
 import ActivityPane from './Common/ActivityPane'
-import WitnessesPane from './HotspotDetails/WitnessesPane'
-import NearbyHotspotsPane from './HotspotDetails/NearbyHotspotsPane'
+//import WitnessesPane from './HotspotDetails/WitnessesPane'
+//import NearbyHotspotsPane from './HotspotDetails/NearbyHotspotsPane'
 import useSelectedHotspot from '../../hooks/useSelectedHotspot'
 import CopyableText from '../Common/CopyableText'
-import AccountAddress from '../AccountAddress'
+//import AccountAddress from '../AccountAddress'
 import SkeletonList from '../Lists/SkeletonList'
-import FlagLocation from '../Common/FlagLocation'
-import Gain from '../Hotspots/Gain'
-import Elevation from '../Hotspots/Elevation'
+//import FlagLocation from '../Common/FlagLocation'
+//import Gain from '../Hotspots/Gain'
+//import Elevation from '../Hotspots/Elevation'
 import { isDataOnly } from '../Hotspots/utils'
 import SkeletonWidgets from './Common/SkeletonWidgets'
 import HexIndex from '../Common/HexIndex'
@@ -169,39 +169,11 @@ const HotspotDetailsInfoBox = ({ address, isLoading, hotspot }) => {
   return (
     <InfoBox
       title={title}
-      metaTitle={`Hotspot ${animalHash(address)}`}
+      metaTitle={`TagMatch ${animalHash(address)}`}
       subtitles={generateSubtitles(hotspot)}
       breadcrumbs={generateBreadcrumbs(hotspot)}
     >
-      <TabNavbar>
-        <TabPane title="Statistics" key="statistics">
-          {isLoading ? (
-            <SkeletonWidgets />
-          ) : (
-            <StatisticsPane hotspot={hotspot} isDataOnly={IS_DATA_ONLY} />
-          )}
-        </TabPane>
-        <TabPane title="Activity" path="activity" key="activity">
-          {isLoading ? (
-            <SkeletonList />
-          ) : (
-            <ActivityPane context="hotspot" address={hotspot?.address} />
-          )}
-        </TabPane>
-        
-        <TabPane
-          title="Nearby Players"
-          path="nearby"
-          key="nearby"
-          hidden={IS_DATA_ONLY}
-        >
-          {isLoading ? (
-            <SkeletonList />
-          ) : (
-            <NearbyHotspotsPane hotspot={hotspot} />
-          )}
-        </TabPane>
-      </TabNavbar>
+      
     </InfoBox>
   )
 }

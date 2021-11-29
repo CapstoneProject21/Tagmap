@@ -1,6 +1,6 @@
-import { useMemo, memo } from 'react'
+/*import { useMemo, memo } from 'react'
 import { GeoJSONLayer } from 'react-mapbox-gl'
-import { useBlockHeight } from '../../../data/blocks'
+//import { useBlockHeight } from '../../../data/blocks'
 
 const CoverageLayer = ({
   coverageUrl,
@@ -49,7 +49,7 @@ const defaultStyle = (minZoom, maxZoom) => ({
     '#29d391',
     'offline',
     '#e86161',
-    /* other */ '#ccc',
+    /* other */ /*'#ccc',
   ],
   'circle-radius': {
     stops: [
@@ -138,3 +138,4 @@ const addedStyle = (minZoom, maxZoom, height) => {
 }
 
 export default memo(CoverageLayer)
+*/

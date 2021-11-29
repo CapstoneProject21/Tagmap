@@ -1,7 +1,7 @@
 //required to change this to the list of tagmatch players for future use
 
 
-
+/*
 
 import { useCallback } from 'react'
 import animalHash from 'angry-purple-tiger'
@@ -12,7 +12,7 @@ import BaseList from './BaseList'
 import { useRewardBuckets } from '../../data/rewards'
 import RewardScaleHex from '../Common/RewardScaleHex'
 import Skeleton from '../Common/Skeleton'
-import HotspotTimeAgo from '../Common/HotspotTimeAgo'
+//import HotspotTimeAgo from '../Common/HotspotTimeAgo'
 
 const HexHotspotsList = ({
   hotspots,
@@ -99,3 +99,4 @@ const HotspotItem = ({ hotspot }) => {
 }
 
 export default HexHotspotsList
+*/

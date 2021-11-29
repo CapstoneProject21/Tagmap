@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import useInfoBox from '../../hooks/useInfoBox'
 import classNames from 'classnames'
 import Breadcrumbs from './Breadcrumbs'
-import SubtitleSection from './SubtitleSection'
+//import SubtitleSection from './SubtitleSection'
 import ChevronIcon from '../Icons/Chevron'
 
 const InfoBox = ({ title, metaTitle, children, breadcrumbs, subtitles }) => {
@@ -35,7 +35,7 @@ const InfoBox = ({ title, metaTitle, children, breadcrumbs, subtitles }) => {
             <span className="pointer-events-auto text-white text-2xl md:text-3xl font-semibold font-sans tracking-tight">
               {title}
             </span>
-            <SubtitleSection subtitles={subtitles} />
+            
           </div>
           <div
             className="relative md:hidden"

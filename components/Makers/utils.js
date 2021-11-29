@@ -1,4 +1,4 @@
-export const DEPRECATED_HELIUM_MAKER_ADDR =
+/*export const DEPRECATED_HELIUM_MAKER_ADDR =
   '14fzfjFcHpDR1rTH8BNPvSi5dKBbgxaDnmsVPbCjuq9ENjpZbxh'
 
 export const deprecatedHeliumMaker = {
@@ -24,3 +24,4 @@ export const getMakerName = async (accountAddress) => {
   const makerName = makerMatch !== undefined ? makerMatch.name : 'Unknown Maker'
   return makerName
 }
+*/

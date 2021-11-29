@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+/*import { useMemo } from 'react'
 import StatWidget from '../../Widgets/StatWidget'
 import TrendWidget from '../../Widgets/TrendWidget'
 import { useLatestHotspots } from '../../../data/hotspots'
@@ -46,3 +46,4 @@ const StatisticsPane = () => {
 }
 
 export default StatisticsPane
+*/
