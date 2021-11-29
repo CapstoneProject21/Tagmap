@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useHotspots } from '../../../data/hotspots'
 import HotspotsList from '../../Lists/HotspotsList'
 import SkeletonList from '../../Lists/SkeletonList'
@@ -27,3 +27,4 @@ const CityHotspotsPane = ({ city }) => {
 }
 
 export default CityHotspotsPane
+*/

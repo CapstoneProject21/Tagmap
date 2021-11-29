@@ -56,8 +56,9 @@ const Header = ({ fallbackLinks = true }) => {
             fallbackLinks={fallbackLinks}
           />
           <div className="grid grid-flow-col gap-4 items-center">
-            <SearchBar />
-            <MenuButton />
+            //
+            SearchBar and MenuButton are eliminated for now
+            
           </div>
         </div>
       </header>

@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import Timestamp from 'react-timestamp'
 import FlagLocation from '../Common/FlagLocation'
 import { formatHotspotName } from '../Hotspots/utils'
@@ -202,3 +202,4 @@ const BaseSearchResult = ({ title, subtitle, type, onSelect, selected }) => (
 const truncateHash = (hash) => [hash.slice(0, 10), hash.slice(-10)].join('...')
 
 export default SearchResult
+*/

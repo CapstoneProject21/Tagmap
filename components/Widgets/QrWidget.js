@@ -1,4 +1,4 @@
-import QRCode from 'react-qr-code'
+/*import QRCode from 'react-qr-code'
 import Widget from './Widget'
 
 const QrWidget = ({ address }) => {
@@ -19,3 +19,4 @@ const QrWidget = ({ address }) => {
 }
 
 export default QrWidget
+*/

@@ -8,7 +8,7 @@ import TopCitiesPane from './Hotspots/TopCitiesPane'
 
 const HotspotsInfoBox = () => {
   return (
-    <InfoBox title={<I18n t="hotspots.title" />} metaTitle="TITLE">
+    <InfoBox title={<I18n t="Tagmap.title" />} metaTitle="TITLE">
       <TabNavbar>
         <TabPane title="Statistics" key="statistics">
           <StatisticsPane />

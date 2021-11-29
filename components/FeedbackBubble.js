@@ -1,4 +1,4 @@
-import { FeedbackFish } from '@feedback-fish/react'
+/*import { FeedbackFish } from '@feedback-fish/react'
 
 const FeedbackBubble = ({ className, children }) => (
   <div className={className}>
@@ -9,3 +9,4 @@ const FeedbackBubble = ({ className, children }) => (
 )
 
 export default FeedbackBubble
+*/

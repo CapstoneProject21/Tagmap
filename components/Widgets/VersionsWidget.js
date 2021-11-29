@@ -1,4 +1,4 @@
-import { max, sum } from 'lodash'
+/*import { max, sum } from 'lodash'
 import { Tooltip } from 'antd'
 import { formatVersion } from '../Validators/utils'
 import { useMemo } from 'react'
@@ -69,3 +69,4 @@ const VersionsWidget = () => {
 }
 
 export default VersionsWidget
+*/

@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useMemo } from 'react'
 import { useElections } from '../../../data/consensus'
 import { useAccountValidators } from '../../../data/validators'
@@ -40,3 +40,4 @@ const ValidatorsPane = ({ address }) => {
 }
 
 export default ValidatorsPane
+*/

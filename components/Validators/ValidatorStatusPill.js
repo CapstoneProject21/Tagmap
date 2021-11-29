@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { capitalize } from 'lodash'
 import Pill from '../Common/Pill'
 
@@ -47,3 +47,4 @@ const ValidatorStatusPill = ({
 }
 
 export default ValidatorStatusPill
+*/

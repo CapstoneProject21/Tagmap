@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Progress } from 'antd'
 
 const ExportProgress = ({ percent }) => {
@@ -10,3 +10,4 @@ const ExportProgress = ({ percent }) => {
 }
 
 export default ExportProgress
+*/

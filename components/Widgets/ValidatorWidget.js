@@ -1,4 +1,4 @@
-import Widget from './Widget'
+/*import Widget from './Widget'
 import { useValidator } from '../../data/validators'
 import ValidatorFlagLocation from '../Validators/ValidatorFlagLocation'
 import animalHash from 'angry-purple-tiger'
@@ -32,3 +32,4 @@ const ValidatorWidget = ({ title, address }) => {
 }
 
 export default ValidatorWidget
+*/

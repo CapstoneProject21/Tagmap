@@ -1,4 +1,4 @@
-export const isRelay = (listen_addrs) => {
+/*export const isRelay = (listen_addrs) => {
   return !!(
     listen_addrs &&
     listen_addrs.length > 0 &&
@@ -31,3 +31,4 @@ export const formatVersion = (versionHeartbeat) => {
 
 export const filterEligibleValidators = (v) =>
   v.stakeStatus === 'staked' && v?.status?.online === 'online'
+*/

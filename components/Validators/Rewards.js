@@ -1,4 +1,4 @@
-import { round } from '@turf/helpers'
+/*import { round } from '@turf/helpers'
 import { Tooltip } from 'antd'
 import Skeleton from '../Common/Skeleton'
 import { useValidatorRewardsSum } from '../../data/rewards'
@@ -21,3 +21,4 @@ const Rewards = ({ validator }) => {
 }
 
 export default Rewards
+*/

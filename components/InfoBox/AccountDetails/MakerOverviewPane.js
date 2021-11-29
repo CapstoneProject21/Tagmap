@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+/*import { useParams } from 'react-router'
 import { useAccount } from '../../../data/accounts'
 import QrWidget from '../../Widgets/QrWidget'
 import InfoBoxPaneContainer from '../Common/InfoBoxPaneContainer'
@@ -56,3 +56,4 @@ const MakerOverviewPane = () => {
 }
 
 export default MakerOverviewPane
+*/

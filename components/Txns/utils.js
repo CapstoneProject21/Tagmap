@@ -1,4 +1,4 @@
-import animalHash from 'angry-purple-tiger'
+/*import animalHash from 'angry-purple-tiger'
 import { Balance, CurrencyType } from '@helium/currency'
 import { fromUnixTime, format, addMinutes } from 'date-fns'
 
@@ -259,3 +259,4 @@ export const getMetaTagsForTransaction = (txn, isFallback) => {
 
   return metaTags
 }
+*/

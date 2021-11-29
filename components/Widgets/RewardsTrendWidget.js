@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+/*import { useMemo } from 'react'
 import { LineChart, Line, YAxis, ResponsiveContainer, Tooltip } from 'recharts'
 import { chunk, maxBy, minBy, sumBy, takeRight } from 'lodash'
 import classNames from 'classnames'
@@ -166,3 +166,4 @@ const RewardsTrendWidget = ({
 }
 
 export default RewardsTrendWidget
+*/

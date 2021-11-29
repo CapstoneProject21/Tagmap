@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 
 const formatGain = (gain) => {
   return `${gain / 10} dBi`
@@ -16,3 +16,4 @@ const Gain = ({ hotspot, icon = true }) => {
 }
 
 export default Gain
+*/

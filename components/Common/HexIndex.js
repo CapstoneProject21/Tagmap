@@ -1,4 +1,4 @@
-const HexIndex = ({
+/*const HexIndex = ({
   index,
   truncateAmount = 5,
   truncate = true,
@@ -16,3 +16,4 @@ const HexIndex = ({
 }
 
 export default HexIndex
+*/

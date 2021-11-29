@@ -1,4 +1,4 @@
-import { round } from 'lodash'
+/*import { round } from 'lodash'
 
 const Currency = ({ value, isLarge = false }) => {
   if (!value) return '$0.00'
@@ -25,3 +25,4 @@ const Currency = ({ value, isLarge = false }) => {
 }
 
 export default Currency
+*/

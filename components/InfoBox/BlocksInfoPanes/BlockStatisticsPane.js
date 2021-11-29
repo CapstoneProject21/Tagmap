@@ -1,4 +1,4 @@
-import TrendWidget from '../../Widgets/TrendWidget'
+/*import TrendWidget from '../../Widgets/TrendWidget'
 import StatWidget from '../../Widgets/StatWidget'
 import useApi from '../../../hooks/useApi'
 import InfoBoxPaneContainer from '../Common/InfoBoxPaneContainer'
@@ -76,9 +76,9 @@ const BlockStatisticsPane = () => {
         series={blockTimeMonth}
         valueSuffix={' sec'}
         isLoading={processingData}
-      /> */}
-    </InfoBoxPaneContainer>
-  )
-}
+      /> *///}
+    //</InfoBoxPaneContainer>
+  //)
+//}
 
-export default BlockStatisticsPane
+//export default BlockStatisticsPane

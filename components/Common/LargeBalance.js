@@ -1,4 +1,4 @@
-import { round } from 'lodash'
+/*import { round } from 'lodash'
 
 const LargeBalance = ({ value, precision = 3 }) => {
   const BILLION = 1_000_000_000
@@ -21,3 +21,4 @@ const LargeBalance = ({ value, precision = 3 }) => {
 }
 
 export default LargeBalance
+*/

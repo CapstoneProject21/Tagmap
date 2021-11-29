@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+/*import { useCallback, useEffect, useState } from 'react'
 import client from '../../data/client'
 import { Address } from '@helium/crypto'
 import { useDebouncedCallback } from 'use-debounce'
@@ -312,3 +312,4 @@ function isPositiveInt(term) {
 }
 
 export default useSearchResults
+*/

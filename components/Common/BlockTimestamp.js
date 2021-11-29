@@ -1,4 +1,4 @@
-import Timestamp from 'react-timestamp'
+/*import Timestamp from 'react-timestamp'
 
 const GENESIS_TIME = 1564436673
 const GENESIS_HASH = 'La6PuV80Ps9qTP0339Pwm64q3_deMTkv6JOo1251EJI'
@@ -11,3 +11,4 @@ const BlockTimestamp = ({ blockHash, blockHeight, blockTime }) => {
 }
 
 export default BlockTimestamp
+*/

@@ -1,4 +1,4 @@
-import animalHash from 'angry-purple-tiger'
+/*import animalHash from 'angry-purple-tiger'
 import Client from '@helium/http'
 import { Balance, CurrencyType } from '@helium/currency'
 import { fromUnixTime } from 'date-fns'
@@ -191,3 +191,4 @@ export const parseTxn = async (
     ? Promise.all(data.map(addDefaults))
     : addDefaults(data)
 }
+*/

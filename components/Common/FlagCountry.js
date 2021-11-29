@@ -1,4 +1,4 @@
-import { formatCountryLocation } from '../Hotspots/utils'
+/*import { formatCountryLocation } from '../Hotspots/utils'
 import camelcaseKeys from 'camelcase-keys'
 import Flag from './Flag'
 
@@ -19,3 +19,4 @@ const CountryFlag = ({
 }
 
 export default CountryFlag
+*/

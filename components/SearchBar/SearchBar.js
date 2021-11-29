@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+/*import { useCallback, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { clamp } from 'lodash'
 import { CloseCircleFilled } from '@ant-design/icons'
@@ -144,3 +144,4 @@ const SearchBar = () => {
 }
 
 export default SearchBar
+*/

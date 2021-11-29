@@ -15,10 +15,10 @@
  */
 
 /**
- * @module geojson2h3
+ /*  @module geojson2h3
  */
 
-const h3 = require('h3-js');
+/*const h3 = require('h3-js');
 
 const FEATURE = 'Feature';
 const FEATURE_COLLECTION = 'FeatureCollection';
@@ -35,7 +35,7 @@ const MULTI_POLYGON = 'MultiPolygon';
  * @param {String[][]} arrays Arrays to flatten
  * @return {String} Single array with all values from all input arrays
  */
-function flatten(arrays) {
+/*function flatten(arrays) {
     let out = null;
     for (let i = 0; i < arrays.length; i++) {
         if (out !== null) {
@@ -55,7 +55,7 @@ function flatten(arrays) {
  * @param {Number[][][]} polygon     Polygon, as an array of loops
  * @return {Number[]} lngLat         Lng/lat centroid
  */
-function centroid(polygon) {
+/*function centroid(polygon) {
     let lngSum = 0;
     let latSum = 0;
     let count = 0;
@@ -76,7 +76,7 @@ function centroid(polygon) {
  * @param  {Number} resolution  Resolution of hexagons, between 0 and 15
  * @return {String[]}           H3 indexes
  */
-function featureCollectionToH3Set(featureCollection, resolution) {
+/*function featureCollectionToH3Set(featureCollection, resolution) {
     const {features} = featureCollection;
     if (!features) {
         throw new Error('No features found');
@@ -108,7 +108,7 @@ function featureCollectionToH3Set(featureCollection, resolution) {
  *                              cell is returned in the set
  * @return {String[]}           H3 indexes
  */
-function featureToH3Set(feature, resolution, options = {}) {
+/*function featureToH3Set(feature, resolution, options = {}) {
     const {type, geometry} = feature;
     const geometryType = geometry && geometry.type;
 
@@ -147,7 +147,7 @@ function featureToH3Set(feature, resolution, options = {}) {
  * @param  {Object} [properties] Optional feature properties
  * @return {Feature}             GeoJSON Feature object
  */
-function h3ToFeature(h3Index, properties = {}) {
+/*function h3ToFeature(h3Index, properties = {}) {
     // Wrap in an array for a single-loop polygon
     const coordinates = [h3.h3ToGeoBoundary(h3Index, true)];
     return {
@@ -172,7 +172,7 @@ function h3ToFeature(h3Index, properties = {}) {
  * @param  {Object} [properties] Optional feature properties
  * @return {Feature}             GeoJSON Feature object
  */
-function h3SetToFeature(hexagons, properties = {}) {
+/*function h3SetToFeature(hexagons, properties = {}) {
     const polygons = h3.h3SetToMultiPolygon(hexagons, true);
     // See if we can unwrap to a simple Polygon.
     const isMultiPolygon = polygons.length > 1;
@@ -199,7 +199,7 @@ function h3SetToFeature(hexagons, properties = {}) {
  * @param  {Object} [properties] Optional feature properties
  * @return {Feature}             GeoJSON Feature object
  */
-function h3SetToMultiPolygonFeature(hexagons, properties = {}) {
+/*function h3SetToMultiPolygonFeature(hexagons, properties = {}) {
     const coordinates = hexagons.map(h3Index =>
         // Wrap in an array for a single-loop polygon
         [h3.h3ToGeoBoundary(h3Index, {geoJson: true})]
@@ -225,7 +225,7 @@ function h3SetToMultiPolygonFeature(hexagons, properties = {}) {
  *                                    for a hexagon: f(h3Index) => Object
  * @return {FeatureCollection}        GeoJSON FeatureCollection object
  */
-function h3SetToFeatureCollection(hexagons, getProperties) {
+/*function h3SetToFeatureCollection(hexagons, getProperties) {
     const features = [];
     for (let i = 0; i < hexagons.length; i++) {
         const h3Index = hexagons[i];
@@ -245,3 +245,4 @@ module.exports = {
     h3SetToMultiPolygonFeature,
     h3SetToFeatureCollection
 };
+*/

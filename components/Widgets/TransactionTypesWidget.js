@@ -1,4 +1,4 @@
-import { countBy } from 'lodash'
+/*import { countBy } from 'lodash'
 import { Tooltip } from 'antd'
 import { useMemo } from 'react'
 import { getTxnTypeColor, getTxnTypeName } from '../../utils/txns'
@@ -47,3 +47,4 @@ const TransactionTypesWidget = ({ txns, className, padding = true }) => {
 }
 
 export default TransactionTypesWidget
+*/

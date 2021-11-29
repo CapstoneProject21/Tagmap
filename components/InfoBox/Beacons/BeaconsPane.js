@@ -1,3 +1,5 @@
+//Not required
+/*
 import classNames from 'classnames'
 import { useBeacons } from '../../../data/beacons'
 import BeaconsList from '../../Lists/BeaconsList'
@@ -30,3 +32,4 @@ const BeaconsPane = ({ context, address }) => {
 }
 
 export default BeaconsPane
+*/

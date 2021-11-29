@@ -4,7 +4,7 @@ import Head from 'next/head'
 const Page = ({ children, backgroundColor = '#212E3A', className }) => (
   <article className={className}>
     <Head>
-      <link rel="icon" type="image/png" href="static/img/favicon.png" />
+      <link rel="icon" type="image/png" href="static/img/TagMatch.png" />
     </Head>
 
     <style jsx global>{`

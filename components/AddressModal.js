@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/*import React, { useState } from 'react'
 import { Row, Typography, Button, Modal, Space } from 'antd'
 import { QrcodeOutlined } from '@ant-design/icons'
 import QRCode from 'react-qr-code'
@@ -33,3 +33,4 @@ const AddressModal = ({ address }) => {
 }
 
 export default AddressModal
+*/

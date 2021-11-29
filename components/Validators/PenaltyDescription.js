@@ -1,4 +1,4 @@
-const PenaltyDescription = () => (
+/*const PenaltyDescription = () => (
   <span>
     Penalties and probability determine whether a Validator is elected to or
     removed from a consensus group.{' '}
@@ -13,3 +13,4 @@ const PenaltyDescription = () => (
 )
 
 export default PenaltyDescription
+*/

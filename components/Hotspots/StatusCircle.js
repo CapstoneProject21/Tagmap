@@ -1,8 +1,8 @@
-import React from 'react'
+/*import React from 'react'
 import { Tooltip } from 'antd'
 
 function tooltipTitle(status, height) {
-  let title = status === 'online' ? 'Hotspot online' : 'Hotspot offline'
+  let title = status === 'online' ? 'Player online' : 'Player offline'
 
   if (height) {
     title = title = `: Status last updated ${height.toLocaleString()}`
@@ -29,3 +29,4 @@ const StatusCircle = ({
 )
 
 export default StatusCircle
+*/

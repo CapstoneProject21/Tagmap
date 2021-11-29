@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+/*import React, { PureComponent } from 'react'
 import { ResponsiveContainer, BarChart, Bar, Tooltip } from 'recharts'
 
 const data = [
@@ -155,3 +155,4 @@ export default class Example extends PureComponent {
     )
   }
 }
+*/

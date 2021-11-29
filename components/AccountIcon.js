@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Rings as Identicon } from 'react-identicon-variety-pack'
 
 const AccountIcon = ({ address, size = 24, style, className }) => (
@@ -12,3 +12,4 @@ const AccountIcon = ({ address, size = 24, style, className }) => (
 )
 
 export default AccountIcon
+*/

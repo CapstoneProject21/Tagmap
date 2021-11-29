@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useMemo } from 'react'
 import Currency from '../Common/Currency'
 import Skeleton from '../Common/Skeleton'
@@ -82,3 +82,4 @@ const MakerAccountBalanceWidget = ({ account }) => {
 }
 
 export default MakerAccountBalanceWidget
+*/

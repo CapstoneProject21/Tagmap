@@ -1,4 +1,4 @@
-import Image from 'next/image'
+/*import Image from 'next/image'
 import { Link } from 'react-router-i18n'
 import { memo, useState } from 'react'
 import { useAsync } from 'react-async-hook'
@@ -63,3 +63,4 @@ const RecentActivityWidget = ({ context, address }) => {
 }
 
 export default memo(RecentActivityWidget)
+*/

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import classNames from 'classnames'
 import { Tooltip } from 'antd'
 import { getStatus, statusCircleColor } from './utils'
@@ -33,3 +33,4 @@ const ValidatorStatusDot = ({
 }
 
 export default ValidatorStatusDot
+*/

@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 import classNames from 'classnames'
 import Hex from '../Hex'
 import { generateRewardScaleColor } from './utils'
@@ -35,3 +35,4 @@ const RewardScalePill = ({ hotspot, className }) => (
 )
 
 export default RewardScalePill
+*/

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Layout } from 'antd'
+//import { Layout } from 'antd'
 import Logo from './Logo'
 import MapButton from './MapButton'
-import SearchBar from '../SearchBar'
+//import SearchBar from '../SearchBar'
 import Link from 'next/link'
 
 const { Header } = Layout

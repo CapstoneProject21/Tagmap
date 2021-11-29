@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react'
+/*import { memo, useMemo } from 'react'
 import classNames from 'classnames'
 import TimeAgo from 'react-time-ago'
 import Widget from './Widget'
@@ -63,3 +63,4 @@ const StatusWidget = ({ hotspot }) => {
 }
 
 export default memo(StatusWidget)
+*/

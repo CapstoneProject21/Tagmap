@@ -1,4 +1,4 @@
-import Widget from './Widget'
+/*import Widget from './Widget'
 import AccountAddress from '../AccountAddress'
 import AccountIcon from '../AccountIcon'
 
@@ -25,3 +25,4 @@ const AccountWidget = ({ title, subtitle, address }) => {
 }
 
 export default AccountWidget
+*/

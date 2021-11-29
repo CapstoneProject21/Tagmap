@@ -1,4 +1,4 @@
-import ReactCountryFlag from 'react-country-flag'
+/*import ReactCountryFlag from 'react-country-flag'
 import classNames from 'classnames'
 
 const Flag = ({ className, countryCode }) => {
@@ -16,3 +16,4 @@ const Flag = ({ className, countryCode }) => {
 }
 
 export default Flag
+*/

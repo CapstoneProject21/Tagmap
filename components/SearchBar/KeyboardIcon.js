@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Icon from '../../public/images/keyboard-icon.svg'
 import { Tooltip } from 'antd'
 
@@ -19,3 +19,4 @@ const KeyboardIcon = () => (
 )
 
 export default KeyboardIcon
+*/

@@ -1,4 +1,4 @@
-import Hex from '../Hex'
+/*import Hex from '../Hex'
 
 const rewardScaleColor = (rewardScale) => {
   if (!rewardScale) return '#AAAAAA'
@@ -30,3 +30,4 @@ const RewardScaleHex = ({ rewardScale }) => {
 }
 
 export default RewardScaleHex
+*/

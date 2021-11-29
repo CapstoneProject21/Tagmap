@@ -1,3 +1,7 @@
+
+//this part needs to be done through the w3 schools website for the icons to work
+
+
 const BurnIcon = ({ className }) => {
   return (
     <svg

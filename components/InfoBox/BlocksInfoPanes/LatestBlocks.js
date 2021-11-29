@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useFetchBlocks } from '../../../data/blocks'
 import BlocksList from '../../Lists/BlocksList'
 import Image from 'next/image'
@@ -76,3 +76,4 @@ const LatestBlocksPane = () => {
 }
 
 export default LatestBlocksPane
+*/

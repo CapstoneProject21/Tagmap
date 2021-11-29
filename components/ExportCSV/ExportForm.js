@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Typography, Radio, Checkbox } from 'antd'
 import { DatePicker } from '../../components/Antd'
 import {
@@ -51,24 +51,7 @@ const ExportForm = ({ onDateChange, onTxnChange, onFeeChange, type }) => {
         <div style={{ marginBottom: '4px' }}>
           <Text strong>Date Range to Export:</Text>
         </div>
-        <div>
-          <RangePicker
-            ranges={{
-              Today: [startOfDay(now), now],
-              'This Month': [startOfMonth(now), now],
-              'Last Month': [
-                startOfMonth(subMonths(now, 1)),
-                endOfMonth(subMonths(now, 1)),
-              ],
-              'This Year': [startOfYear(now), now],
-              'Last Year': [
-                startOfYear(subYears(now, 1)),
-                endOfYear(subYears(now, 1)),
-              ],
-            }}
-            onChange={onDateChange}
-          />
-        </div>
+     
       </InputGroup>
 
       <InputGroup>
@@ -81,24 +64,10 @@ const ExportForm = ({ onDateChange, onTxnChange, onFeeChange, type }) => {
           />
         </div>
       </InputGroup>
-
-      {type !== 'hotspot' && (
-        <InputGroup>
-          <Text strong>Display Fees in:</Text>
-          <div>
-            <Radio.Group onChange={onFeeChange} defaultValue="dc">
-              <Radio style={radioStyle} value="dc">
-                Data Credits (DC)
-              </Radio>
-              <Radio style={radioStyle} value="hnt">
-                HNT (experimental)
-              </Radio>
-            </Radio.Group>
-          </div>
-        </InputGroup>
-      )}
-    </div>
-  )
-}
+</div>
+    
+)
+  }
 
 export default ExportForm
+*/

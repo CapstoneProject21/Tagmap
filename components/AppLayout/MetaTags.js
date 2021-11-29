@@ -7,15 +7,15 @@ const MetaTags = ({
   url,
   pageTitle,
 }) => {
-  const metaTitle = title ? `${title} — Helium Explorer` : 'Helium Explorer'
+  const metaTitle = title ? `${title} — TagMap` : 'TagMap'
   // allow the option to set the <title> tag of a page separately from the one that shows up for its meta tags
   // const titleTag = pageTitle ? pageTitle : metaTitle
   const metaDescription = description
     ? description
-    : 'Helium Explorer is an open source block explorer providing detailed blockchain data from the Helium network'
+    : 'TagMap is the visualization of the gameplay of TagMatch Players, if you want to join the game then join us on TagMatch!'
   const metaImage = openGraphImageAbsoluteUrl
     ? openGraphImageAbsoluteUrl
-    : 'https://explorer.helium.com/images/og/explorer.png'
+    : 'https://explorer.helium.com/images/TagMatch.png'
   const metaUrl = url ? url : 'https://www.google.com'
 
   return (
@@ -23,7 +23,7 @@ const MetaTags = ({
       <Head>
         {/* General Meta Tags */}
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/TagMap.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <link
@@ -39,26 +39,9 @@ const MetaTags = ({
         {/* <meta name="title" content={metaTitle} /> */}
         <meta name="description" content={metaDescription} />
 
-        {/* Item Props */}
-        <meta itemProp="name" content={metaTitle} />
-        <meta itemProp="description" content={metaDescription} />
-        <meta itemProp="image" content={metaDescription} />
+        
 
-        {/* Twitter */}
-        <meta name="twitter:title" content={metaTitle} />
-        <meta name="twitter:description" content={metaDescription} />
-        <meta name="twitter:image:src" content={metaImage} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@helium" />
-
-        {/* Open Graph / Facebook */}
-        <meta name="og:title" content={metaTitle} />
-        <meta name="og:description" content={metaDescription} />
-        <meta name="og:image" content={metaImage} />
-        <meta name="og:url" content={metaUrl} />
-        <meta name="og:site_name" content="Helium Explorer" />
-        <meta name="og:locale" content="en_US" />
-        <meta name="og:type" content="website" />
+       
       </Head>
     </>
   )

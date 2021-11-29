@@ -1,6 +1,6 @@
 // This file is a copy of https://github.com/react-component/picker/blob/26726d25a031275375b8cbf92f960e9594efa45c/src/generate/dateFns.ts
 // But it only supports the en_US locale.
-import {
+/*import {
   getDay,
   getYear,
   getMonth,
@@ -109,3 +109,4 @@ const generateConfig = {
 }
 
 export default generateConfig
+*/

@@ -1,4 +1,4 @@
-import ReactCountryFlag from 'react-country-flag'
+/*import ReactCountryFlag from 'react-country-flag'
 import { Tooltip } from 'antd'
 
 const ValidatorFlagLocation = ({ geo }) => {
@@ -29,3 +29,4 @@ const ValidatorFlagLocation = ({ geo }) => {
 }
 
 export default ValidatorFlagLocation
+*/

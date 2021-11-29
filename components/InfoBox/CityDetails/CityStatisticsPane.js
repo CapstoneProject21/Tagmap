@@ -1,4 +1,4 @@
-import InfoBoxPaneContainer from '../Common/InfoBoxPaneContainer'
+/*import InfoBoxPaneContainer from '../Common/InfoBoxPaneContainer'
 import Widget from '../../Widgets/Widget'
 import SkeletonWidgets from '../Common/SkeletonWidgets'
 
@@ -29,3 +29,4 @@ const CityStatisticsPane = ({ city }) => {
 }
 
 export default CityStatisticsPane
+*/

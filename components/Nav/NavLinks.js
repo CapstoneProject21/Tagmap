@@ -38,7 +38,7 @@ const NavLinks = ({
     <div className={className}>
       <NavLink
         href="/hotspots"
-        title="TagMap"
+        title="TagMatch"  //link to the tagmatch page for to continue the game
         className={navLinkClasses}
         onClick={onNavLinkClick}
         fallback={fallbackLinks}

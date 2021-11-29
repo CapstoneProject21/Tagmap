@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 import { capitalize, round, sum } from 'lodash'
 import PenaltyDescription from '../Validators/PenaltyDescription'
 import Widget from './Widget'
@@ -75,3 +75,4 @@ const PenaltyGraph = ({ validator }) => {
 }
 
 export default PenaltyWidget
+*/

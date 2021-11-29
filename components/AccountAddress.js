@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Tooltip } from 'antd'
 import { isInteger } from 'lodash'
 import classNames from 'classnames'
@@ -36,3 +36,4 @@ const AccountAddress = ({
 }
 
 export default AccountAddress
+*/

@@ -1,4 +1,4 @@
-import Widget from '../../Widgets/Widget'
+/*import Widget from '../../Widgets/Widget'
 import InfoBoxPaneContainer from '../Common/InfoBoxPaneContainer'
 import { round } from 'lodash'
 import { useStats } from '../../../data/stats'
@@ -86,3 +86,4 @@ const ElectionsPane = () => {
 }
 
 export default ElectionsPane
+*/

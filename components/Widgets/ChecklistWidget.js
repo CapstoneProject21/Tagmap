@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+/*import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useAsync } from 'react-async-hook'
 import ChecklistCheck from '../Icons/ChecklistCheck'
 import { getActivityForChecklist } from '../../data/checklist'
@@ -164,3 +164,4 @@ const ChecklistWidget = ({ hotspot, witnesses, isDataOnly }) => {
   )
 }
 export default ChecklistWidget
+*/

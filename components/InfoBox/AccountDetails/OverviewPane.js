@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+/*import { useParams } from 'react-router'
 import { useAccount } from '../../../data/accounts'
 import { TAKE_MAX } from '../../../data/client'
 import { useHotspots } from '../../../data/hotspots'
@@ -36,12 +36,7 @@ const OverviewPane = () => {
         value={maybeShowNone(hotspots.length)}
         linkTo={`/accounts/${address}/hotspots`}
       />
-      <Widget
-        //title="Validators"
-        //isLoading={isLoadingValidators}
-        //value={maybeShowNone(validators?.length)}
-        //linkTo={`/accounts/${address}/validators`}
-      />
+     
     </InfoBoxPaneContainer>
     
   )
@@ -57,3 +52,4 @@ const NoneValue = () => {
 }
 
 export default OverviewPane
+*/

@@ -1,4 +1,4 @@
-import { formatDistanceToNow } from 'date-fns'
+/*import { formatDistanceToNow } from 'date-fns'
 
 const TimeAgo = ({ time, addSuffix = true }) => {
   return (
@@ -7,3 +7,4 @@ const TimeAgo = ({ time, addSuffix = true }) => {
 }
 
 export default TimeAgo
+*/

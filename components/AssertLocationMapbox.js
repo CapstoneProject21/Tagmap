@@ -1,4 +1,4 @@
-import ReactMapboxGl, { Marker } from 'react-mapbox-gl'
+/*import ReactMapboxGl, { Marker } from 'react-mapbox-gl'
 
 const Mapbox = ReactMapboxGl({
   accessToken: process.env.NEXT_PUBLIC_MAPBOX_KEY,

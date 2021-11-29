@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/* import { Tooltip } from 'antd'
 
 const WitnessPill = ({ count }) => (
   <Tooltip title={`${count} witnesses`}>
@@ -10,3 +10,4 @@ const WitnessPill = ({ count }) => (
 )
 
 export default WitnessPill
+*/

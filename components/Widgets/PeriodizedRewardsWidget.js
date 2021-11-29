@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+/*import { useCallback, useState } from 'react'
 import classNames from 'classnames'
 import { useRewardBuckets } from '../../data/rewards'
 import RewardsTrendWidget from './RewardsTrendWidget'
@@ -74,3 +74,4 @@ const RewardPeriodSelector = ({ periods, handlePeriodChange }) => {
 }
 
 export default PeriodizedRewardsWidget
+*/

@@ -1,4 +1,4 @@
-import Widget from './Widget'
+/*import Widget from './Widget'
 import Hex from '../Hex'
 import { generateRewardScaleColor } from '../Hotspots/utils'
 
@@ -43,3 +43,4 @@ const RewardScaleWidget = ({ hotspot }) => {
 }
 
 export default RewardScaleWidget
+*/

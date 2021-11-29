@@ -1,4 +1,4 @@
-import TrendWidget from './TrendWidget'
+/*import TrendWidget from './TrendWidget'
 import { round } from 'lodash'
 import { useState, useEffect } from 'react'
 import useApi from '../../hooks/useApi'
@@ -37,3 +37,4 @@ const ElectionTimeWidget = () => {
 }
 
 export default ElectionTimeWidget
+*/

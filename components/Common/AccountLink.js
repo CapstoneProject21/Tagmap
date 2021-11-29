@@ -1,4 +1,4 @@
-import Link from 'next/link'
+/*import Link from 'next/link'
 import AccountIcon from '../AccountIcon'
 
 const AccountLink = ({ address }) => (
@@ -15,3 +15,4 @@ const AccountLink = ({ address }) => (
 )
 
 export default AccountLink
+*/

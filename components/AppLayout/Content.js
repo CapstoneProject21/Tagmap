@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from 'antd'
+//import { Row, Col } from 'antd'
 
 const Content = ({ children, style = {}, classes }) => (
   <Row justify="" style={style} className={`${classes}`}>

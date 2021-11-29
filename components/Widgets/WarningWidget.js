@@ -1,4 +1,4 @@
-const WarningWidget = ({
+/*const WarningWidget = ({
   isVisible = true,
   warningText,
   subtitle,
@@ -43,3 +43,4 @@ const WarningWidget = ({
 }
 
 export default WarningWidget
+*/

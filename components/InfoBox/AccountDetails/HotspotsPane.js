@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+/*import classNames from 'classnames'
 import { useHotspots } from '../../../data/hotspots'
 import HotspotsList from '../../Lists/HotspotsList'
 
@@ -30,3 +30,4 @@ const HotspotsPane = ({ address }) => {
 }
 
 export default HotspotsPane
+*/

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Tag, Tooltip } from 'antd'
 
 const CONFIG = {
@@ -106,7 +106,7 @@ const TxnTag = ({ type }) => {
   const tooltip = getTooltip(type)
 
   return tooltip ? (
-    <Tooltip placement="bottom" title={tooltip}>
+    <Tooltip placement="top" title={tooltip}>
       {tag}
     </Tooltip>
   ) : (
@@ -115,3 +115,4 @@ const TxnTag = ({ type }) => {
 }
 
 export default TxnTag
+*/

@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 import React from 'react'
 
 const ConsensusIndicator = ({ address, recentGroups }) => {
@@ -28,3 +28,4 @@ const ConsensusIndicator = ({ address, recentGroups }) => {
 }
 
 export default ConsensusIndicator
+*/

@@ -1,4 +1,4 @@
-import { formatLocation } from '../Hotspots/utils'
+/*import { formatLocation } from '../Hotspots/utils'
 import camelcaseKeys from 'camelcase-keys'
 import Flag from './Flag'
 
@@ -29,3 +29,4 @@ const FlagLocation = ({
 }
 
 export default FlagLocation
+*/

@@ -16,7 +16,7 @@ const mapSupported = mapboxglSupported.supported()
 
 if (!mapSupported) {
   console.error(
-    'WebGL was not able to initialize in your browser. Please try on another device or browser to enable the full functionality of the Helium Explorer.',
+    'WebGL was not able to initialize in your browser. Please try on another device or browser to enable the full functionality of the TagMap.',
   )
 }
 
@@ -27,7 +27,7 @@ const Map = dynamic(() => import('../components/Map/Map'), {
 
 export const Index = ({ coverageUrl }) => {
   useGA()
-  const history = useHistory()
+  //const history = useHistory()
   const location = useLocation()
 
   useKeydown({
@@ -45,16 +45,16 @@ export const Index = ({ coverageUrl }) => {
         />
       </Head>
       <MetaTags
-        description={`View an interactive map of the Helium network and all the hotspots currently active around the world`}
-        openGraphImageAbsoluteUrl={
-          'https://explorer.helium.com/images/og/coverage.png'
-        }
-        url={'https://explorer.helium.com/coverage'}
+        description={`View an interactive map of the TagMap and all the players currently active around the world`}
+        //urlopenGraphImageAbsoluteUrl={
+          //'https://explorer.helium.com/images/og/IMG_0746.JPG'
+       // }
+        //url={'https://explorer.helium.com/coverage'}
       />
       <Helmet>
         <title>TagMap from TagMatch</title>
       </Helmet>
-      <Header activeNav="coverage" />
+      <Header/>
       {mapSupported && <Map coverageUrl={coverageUrl} />}
       <InfoBoxSwitch />
       <MapLayersBox />

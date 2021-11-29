@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Client from '@helium/http'
 import { Button, Modal, notification } from 'antd'
 import { ExportToCsv } from 'export-to-csv'
@@ -8,16 +8,6 @@ import ExportForm from './ExportForm'
 import { getUnixTime, startOfDay } from 'date-fns'
 
 const now = new Date()
-const initialState = {
-  open: false,
-  loading: false,
-  done: false,
-  startDate: getUnixTime(now),
-  endDate: getUnixTime(startOfDay(now)),
-  txn: ['payment', 'reward'],
-  fee: 'dc',
-  lastTxnTime: getUnixTime(now),
-}
 
 class ExportModal extends React.Component {
   state = initialState
@@ -53,20 +43,13 @@ class ExportModal extends React.Component {
     const { address, type } = this.props
     const { startDate, endDate, txn, fee } = this.state
 
-    const filterTypes = []
-    if (txn.includes('payment')) filterTypes.push('payment_v1', 'payment_v2')
-    if (txn.includes('reward')) filterTypes.push('rewards_v1')
-    if (txn.includes('transfer')) filterTypes.push('transfer_hotspot_v1')
-    if (txn.includes('assert')) filterTypes.push('assert_location_v1')
-    if (txn.includes('add')) filterTypes.push('add_gateway_v1')
+    
 
     let service = null
     let list
 
     switch (type) {
-      case 'account':
-        service = this.client.account
-        break
+      
       case 'hotspot':
         service = this.client.hotspot
         break
@@ -85,17 +68,7 @@ class ExportModal extends React.Component {
 
     let data = []
 
-    for await (const txn of list) {
-      if (txn.time < startDate) break
-      if (txn.time <= endDate) {
-        data.push(
-          ...[].concat(
-            await parseTxn(address, txn, { convertFee: fee === 'hnt' }),
-          ),
-        )
-      }
-      this.setState({ lastTxnTime: txn.time })
-    }
+  
 
     const options = {
       filename: `${type === 'account' ? 'Account' : 'Hotspot'} ${address}`,
@@ -158,3 +131,4 @@ class ExportModal extends React.Component {
 }
 
 export default ExportModal
+*/

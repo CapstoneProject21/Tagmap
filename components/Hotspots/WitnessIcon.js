@@ -1,4 +1,4 @@
-const WitnessIcon = () => (
+/*const WitnessIcon = () => (
   <svg
     width="26"
     height="20"
@@ -16,3 +16,4 @@ const WitnessIcon = () => (
 )
 
 export default WitnessIcon
+*/

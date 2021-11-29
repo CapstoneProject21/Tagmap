@@ -1,4 +1,4 @@
-import { useReducer } from 'react'
+/*import { useReducer } from 'react'
 import Fuse from 'fuse.js'
 import { castArray, orderBy, uniqBy } from 'lodash'
 
@@ -55,3 +55,4 @@ const sortResults = (results, term) => {
 }
 
 export default useResultsReducer
+*/

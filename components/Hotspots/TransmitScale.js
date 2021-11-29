@@ -1,4 +1,4 @@
-import Hex from '../Hex'
+/*import Hex from '../Hex'
 import { generateRewardScaleColor } from './utils'
 
 export const formatElevation = (elevation) => {
@@ -21,3 +21,4 @@ const TransmitScale = ({ hotspot }) => {
 }
 
 export default TransmitScale
+*/

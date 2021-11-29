@@ -1,4 +1,4 @@
-import { Tooltip } from 'antd'
+/*import { Tooltip } from 'antd'
 
 export const formatElevation = (elevation) => {
   return `${elevation} m`
@@ -16,3 +16,4 @@ const Elevation = ({ hotspot, icon = true }) => {
 }
 
 export default Elevation
+*/

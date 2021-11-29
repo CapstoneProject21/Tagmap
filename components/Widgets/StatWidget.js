@@ -1,4 +1,4 @@
-import { first, last } from 'lodash'
+/*import { first, last } from 'lodash'
 import Widget from './Widget'
 import WidgetChange from './WidgetChange'
 
@@ -53,3 +53,4 @@ const stringOpts = {
 }
 
 export default StatWidget
+*/
