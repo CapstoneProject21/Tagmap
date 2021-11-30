@@ -1,6 +1,6 @@
 //Need to review again as this is not adding up our information
 
-
+/*
 import React from 'react'
 import { XAxis, ResponsiveContainer, Tooltip, LineChart, Line } from 'recharts'
 import { format, fromUnixTime } from 'date-fns'
@@ -73,3 +73,4 @@ const OraclePriceChart = ({ data }) => {
 }
 
 export default OraclePriceChart
+*/

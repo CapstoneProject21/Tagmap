@@ -15,7 +15,7 @@
  */
 
 /**
- /*  @module geojson2h3
+ /* //////// //// //// /// /// @module geojson2h3
  */
 
 /*const h3 = require('h3-js');

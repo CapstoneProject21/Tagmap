@@ -32,8 +32,8 @@ const MobileNavOverlay = ({ menuOpen, toggleMenu }) => {
           <Link to="/" className="pb-10" onClick={toggleMenu}>
             <img
               alt="TagMap Logo"
-              src="/images/logo-sm.svg"
-              className="border-solid border border-transparent focus:border-navy-400"
+              src="/images/TagMatch.png"
+              className="border-solid border border-transparent focus:border-navy-300"
             />
           </Link>
           <NavLinks

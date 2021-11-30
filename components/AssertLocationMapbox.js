@@ -42,3 +42,4 @@ const AssertLocationMapbox = ({ txn }) => {
   )
 }
 export default AssertLocationMapbox
+*/

@@ -1,6 +1,6 @@
 {
-  "short_name": "Helium Explorer",
-  "name": "Helium Explorer is an open source block explorer providing detailed blockchain data from the Helium network",
+  "short_name": "TagMap",
+  "name": "TagMap is a visualization of the player from TagMatch application for the Tag-Game",
   "icons": [
     {
       "src": "TagMatch.ico",

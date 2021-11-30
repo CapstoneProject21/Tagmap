@@ -1,3 +1,7 @@
+
+//This file is being called at the informationpanel box
+
+
 import React from 'react'
 import Widget from './Widget'
 import Countdown from 'react-countdown'
